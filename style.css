@@ -1,0 +1,31 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+#top_banner{
+	display: flex;
+}
+h2 {
+	color: #D1F2EB;
+	font-size: 80px;
+	position: absolute;
+	transform: translate(10%, 50%);
+}
+/*id selector*/
+#banner_image {
+	width: 100%;
+	position: relative;
+}
+.food {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 30px;
+	padding: 40px;
+
+}
+
+.cards{
+	display: flex;
+	justify-context: space-evenly;
+}
